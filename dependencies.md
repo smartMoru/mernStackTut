@@ -3,6 +3,7 @@
 1. 项目部署
 
 ```sh
+#backend
 npm init -y
 npm install express
 npm install dotenv
@@ -18,6 +19,12 @@ nodemon server.js # 这两种都可以 自动更新
 npm run dev # 在package.json里面的scripts加"dev": "nodemon server.js" 然后直接启动也可以
 
 npm install swagger-jsdoc swagger-ui-express #swagger-ui接口文档
+
+
+
+# frontend
+npx create-react-app frontend 
+npm install react-router-dom
 ```
 
 
