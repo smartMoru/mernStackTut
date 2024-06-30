@@ -25,6 +25,7 @@ npm install swagger-jsdoc swagger-ui-express #swagger-ui接口文档
 # frontend
 npx create-react-app frontend 
 npm install react-router-dom
+npm install date-fns #几天前的依赖
 ```
 
 
